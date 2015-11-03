@@ -1,0 +1,69 @@
+body{
+background-color:#ddd;
+padding:0px;
+margin:0px;
+font-family:arial,helvetica,sans-serif;
+}
+
+
+.slots {
+	font-size:80px;
+	vertical-align:baseline;
+	font-family:arial,helvetica,sans-serif;
+	overflow:hidden;
+	width:700px;
+	height:375px;
+	border:1px solid black;
+	float:left;
+	
+	background: rgb(0,0,0); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(226,226,226,1) 50%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(50%,rgba(226,226,226,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(226,226,226,1) 50%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(226,226,226,1) 50%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(226,226,226,1) 50%,rgba(0,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(226,226,226,1) 50%,rgba(0,0,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.slots .wrapper{
+	margin-top:12px;
+	width:696px;
+	border-left:2px solid white;
+	border-right:2px solid black;
+}
+
+.listwrap{
+	margin-top:20px;
+	margin-left:20px;
+	width:160px;
+	float:right;
+}
+
+ul{
+    list-style-type: none;
+}
+.slots .chosen{
+	margin-top:125px;
+	position:absolute;
+	width:700px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+    height:125px;
+	background-color:white;
+	opacity: 0.2;
+}
+
+.slots .slot{
+	width:700px;
+	height:125px;
+	text-align:center;
+	color:white;
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	color: #222;
+}
